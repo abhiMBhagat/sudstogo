@@ -1,0 +1,253 @@
+/*by Abhi Bhagat*/
+.second{
+    display: flex;
+    text-align: center;  
+}
+.second > *{
+    width:calc(100% / 3);
+    padding:auto;
+}
+.third{
+    display: flex;
+    text-align: center;
+}
+.third{
+    width:50%;
+    padding: auto;
+    
+}
+.second img{
+    height: 400px;
+    width: auto;
+}
+nav  a{
+    display: block;
+    font-size: 30px;
+    padding: 10px;
+    background-color:rgb(57, 62, 67);
+    border: 1.5px solid white;
+    text-align: center;
+    width: 90%;
+    text-decoration: none;
+    color: whitesmoke;  
+}
+
+.your-class  img {
+    border-radius: 50%;
+  }
+
+.your-class   {
+    overflow-x: auto;
+    width: 70%;
+  }
+nav{
+    width: 240px;
+    height: 1030px;
+    background-color:rgb(1, 12, 27);
+    overflow: auto;
+    float: left;
+    
+}
+nav{
+    margin: 0;
+    
+}
+header{
+    width: 700mm;
+    height: 70mm;
+    text-align: center;
+    opacity: 0.8;
+    background-image: url(../imgs/pexels-tima-miroshnichenko-6873008.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+ header h3{
+    font-size: 40px;
+    color: white;
+	text-shadow: -1px 1px 2px #000,
+				  1px 2px 6px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+
+header h1{
+    font-size: 90px;
+    color: white;
+	text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
+}
+
+main p{
+font-size: 20px;
+padding-left: 2cm;
+text-align: left;
+}
+
+.testo {
+    background-color: rgb(226, 235, 235);
+    width: 100px;
+    height: 400px;
+    border: 10px solid rgb(34, 32, 32);
+    border-radius: 5%;
+    padding: 20px ;
+    margin: 20px 20px;
+}
+
+main h2 {
+    padding-left: 7cm;
+}
+li{
+    font-size: 20px;
+    text-align: left;
+    }
+
+ .location-grid {
+        text-align: center;
+      }
+   
+.google-map-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 10px;
+    padding: 10px;
+      }
+      
+      .image-flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-evenly; */
+      }
+      
+      .image-flex-container img {
+        width: 300px;
+        height: 300px;
+        margin: 50px 50px 100px 50px;
+        border-radius: 10%;
+      }
+
+footer{
+    text-align: center;
+    color:black;
+    background-color: gainsboro;
+    font-size: 25px;
+}
+
+#contactForm{
+    margin-left: 250px;
+    padding-left: 20px;
+    border: 2px solid rgb(16, 12, 12);
+    border-radius: 10%;
+  background-color: rgb(132, 147, 147);
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.faq {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Add space between each FAQ */
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.answer {
+    margin-bottom: 10px;
+}
+
+.location-grid .google-map-container .google-map h2{
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .second, .third {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second > * {
+        width: 100%; 
+        padding: 10px; 
+    }
+
+    .third {
+        width: 100%; 
+    }
+
+    nav {
+        width: 100%; 
+        float: none; 
+        height: auto; 
+    }
+
+    header {
+        width: 100%; 
+        height: auto; 
+        padding: 50px 0; 
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header h3 {
+        font-size: 30px;
+    }
+
+    main p {
+        font-size: 16px; 
+        padding-left: 10px; 
+        text-align: center; 
+    }
+
+    main h2 {
+        padding-left: 0; 
+        text-align: center; 
+    }
+
+    .testo {
+        width: 80%; 
+        margin: 20px auto; 
+    }
+
+    li {
+        font-size: 16px; 
+        text-align: center;
+    }
+
+    .image-flex-container img {
+        width: 80%; 
+        height: auto; 
+        margin: 20px auto; 
+    }
+
+    footer {
+        font-size: 20px; 
+    }
+
+    #contactForm {
+        margin-left: 0; 
+        margin-right: 10px;
+        padding: 10px; 
+    }
+
+    .container {
+        grid-template-columns: 1fr; 
+    }
+}

@@ -1,0 +1,84 @@
+.second{
+    display: flex;
+    text-align: center;  
+}
+.second > *{
+    width:calc(100% / 3);
+    padding:auto;
+}
+.third{
+    display: flex;
+    text-align: center;
+}
+.third{
+    width:50%;
+    padding: auto;
+    
+}
+.second img{
+    height: 400px;
+    width: auto;
+}
+nav li{
+    display: inline;
+    
+}
+nav{
+    margin: 0;
+    
+}
+header{
+    width: 500mm;
+    height: 70mm;
+    text-align: center;
+    opacity: 0.8;
+    background-image: url(../imgs/pexels-tima-miroshnichenko-6873008.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+ header h3{
+    font-size: 40px;
+    color: white;
+	text-shadow: -1px 1px 2px #000,
+				  1px 2px 6px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+
+header h1{
+    font-size: 90px;
+    color: white;
+	text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
+}
+
+main p{
+font-size: 20px;
+padding-left: 2cm;
+text-align: left;
+}
+
+
+
+main h2 {
+    padding-left: 7cm;
+}
+li{
+    font-size: 20px;
+    text-align: left;
+    }
+
+footer{
+    text-align: center;
+    color:black;
+    background-color: gainsboro;
+    font-size: 25px;
+}
+
