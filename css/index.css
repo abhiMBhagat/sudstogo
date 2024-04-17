@@ -182,6 +182,9 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+.first h2,p {
+    display: none;
+}
 
     .second > * {
         width: 100%; 
