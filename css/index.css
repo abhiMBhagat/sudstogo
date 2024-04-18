@@ -45,8 +45,15 @@ nav  a{
   }
 
 .your-class   {
-    overflow-x: auto;
-    width: 70%;
+    /* overflow-x: auto; 
+     width: 70%; */
+     /* position:fixed; */
+   top:10px;
+   bottom:10px;
+   width:89%;
+   /* overflow-y:auto; */
+   overflow-y: hidden; /* Hide vertical scrollbar */
+   overflow-x: hidden;
   }
 
 nav{
@@ -103,11 +110,11 @@ text-align: left;
 
 .testo {
     background-color: rgb(226, 235, 235);
-    width: 100px;
-    height: 400px;
+    width: 70px;
+    height: 500px;
     border: 10px solid rgb(34, 32, 32);
     border-radius: 5%;
-    padding: 20px ;
+    padding: 10px ;
     margin: 20px 20px;
 }
 
